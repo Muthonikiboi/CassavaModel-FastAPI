@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 # Path to the saved model directory
-saved_model_dir = '/home/zakidev/Desktop/FastAPI/Models/8'
+saved_model_dir = 'Models/8'
 
 # Load the model using TFSMLayer
 model_layer = tf.keras.layers.TFSMLayer(saved_model_dir, call_endpoint='serving_default')
